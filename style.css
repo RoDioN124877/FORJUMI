@@ -1,0 +1,53 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  margin: 0;
+}
+
+.gift-container {
+  position: relative;
+  cursor: pointer;
+  background-image: url("123.png");
+  background-position: center;
+  background-size: 100%;
+  width: 100px;
+  height: 100px;
+}
+
+
+
+#gift-text {
+  position: absolute;
+  top: 110px;
+  text-align: center;
+  font-size: 24px;
+  color: black; /* Цвет текста */
+  width: 100%;
+}
+.heart {
+  margin-top: 2000px;
+  background-image: url("./heart.png");
+  background-position: center;
+  background-size: 100%;
+  width: 400px;
+  height: 400px;
+}
+.kotiki{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1000px;
+}
+.img{
+  width: 300px;
+  height: 300px;
+}.hidden {
+  display: none;
+}
+.avvv{
+  margin-top: 40px;
+}
